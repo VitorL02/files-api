@@ -1,0 +1,7 @@
+version: '3.8'
+
+services:
+  files-app:
+    image: backend-files:latest
+    ports:
+      - "8080:8080"
